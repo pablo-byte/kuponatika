@@ -1,0 +1,7 @@
+/nbproject/private/
+nbproject
+
+application/config/database.php
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
