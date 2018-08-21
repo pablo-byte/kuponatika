@@ -1,7 +1,7 @@
 /nbproject/private/
 nbproject
 
-application/config/database.php
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
+appx/config/database.php
+appx/logs/*
+!appx/logs/index.html
+!appx/logs/.htaccess
