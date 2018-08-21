@@ -1,0 +1,96 @@
+#page-wrapper {
+    margin-top: 51px;
+}
+
+/* Top Navigation */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    color: #999;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #000;
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+@media(min-width:768px) {
+    .side-nav {}
+    .side-nav li {
+    display: inline-block;
+    width: 100%;
+}
+}
+
+.side-nav {}
+.side-nav li {
+    display: inline-block;
+    width: 100%;
+}
+
+.side-nav li ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li a {
+    padding: 15px;
+    display: block;
+    background: #FFF;
+}
+.navbar-nav li ul a {
+    padding-left: 30px;
+}
+
+.side-nav > li.active > a, .side-nav > li.active > ul > li.active > a {
+    background: #e0e0e0;
+}
+
+.welcome-admin {
+    position: absolute;
+    top: 50%;
+    margin-top: 20%;
+}
+
+.btn-xlg {
+    padding: 40px 26px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    margin: 0px 40px;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.28);
+}
