@@ -47,7 +47,7 @@
     
     <body class="skin-red-light sidebar-mini"
         <div class="wrapper">
-            <div class="content-wrapper col-md-10">
+            <div class="content-wrapper col-md-8">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="box box-danger">

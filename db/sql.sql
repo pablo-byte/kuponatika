@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `kuponatik` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `kuponatik`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: kuponatik
@@ -43,7 +45,7 @@ CREATE TABLE `tbl_books` (
 
 LOCK TABLES `tbl_books` WRITE;
 /*!40000 ALTER TABLE `tbl_books` DISABLE KEYS */;
-INSERT INTO `tbl_books` VALUES (1,'Red Hat Enterprise Linux 6 Administration',50.00,'Sander van','Computer Science','en','984-1234-12341234','2013-12-05',13,'{\"in\":2,\"ad\":4,\"linux\":2,\"computer\":2,\"6\":1,\"Administration\":1}'),(2,'Design Patterns: Elements of Reusable Object-Oriented Software ',15.11,'Ralph Johnson, John Vlissides, Grady Booch','Computer Science','en','978-0201633610','2016-03-01',2,'{\"computer\":2}'),(3,'Machine Learning for Absolute Beginners\r\n',10.36,'Oliver Theobald','Computer Science','en','123-58679-654','2016-08-01',4,'{\"in\":2,\"computer\":2}'),(4,'Python Crash Course: A Hands-On, Project-Based Introduction to Programming',21.58,' Eric Matthes','Programming','en','659-8546-324','2015-11-30',2,'{\"in\":2}'),(5,'Data Structures and Algorithms in Java',102.65,'Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser','Computer Science','en',' 978-1118777788','2014-06-23',4,'{\"in\":2,\"computer\":2}'),(6,'Star Wars: Darth Vader Vol. 1: Vader',26.54,'Kieron Gillen','Comic Novels','en','485-6582-658','2015-09-16',4,'{\"ad\":4}'),(7,'Star Wars Vol. 1: Skywalker Strikes',16.23,'Jason Aron','Novels','en','159-7539-985','2011-04-11',0,NULL),(8,'Phonics for Kindergarten, Grade K ',6.32,'Carson-Dellosa Publishing ','Education','en','412-6548-7854','2016-08-10',6,'{\"in\":2,\"ad\":4}'),(9,'Astrophysics for People in a Hurry ',9.95,'Astrophysics for People in a Hurry ','Science','en','654-71235-654','2010-10-02',2,'{\"in\":2}'),(10,'Let\'s Review Algebra I',8.54,'Gary Rubinstein (Author) ','Science','en','978-1438009854','2006-03-24',0,NULL);
+INSERT INTO `tbl_books` VALUES (1,'Red Hat Enterprise Linux 6 Administration',50.00,'Sander van','Computer Science','en','984-1234-12341234','2013-12-05',14,'{\"in\":2,\"ad\":4,\"linux\":2,\"computer\":3,\"6\":1,\"Administration\":1}'),(2,'Design Patterns: Elements of Reusable Object-Oriented Software ',15.11,'Ralph Johnson, John Vlissides, Grady Booch','Computer Science','en','978-0201633610','2016-03-01',3,'{\"computer\":3}'),(3,'Machine Learning for Absolute Beginners\r\n',10.36,'Oliver Theobald','Computer Science','en','123-58679-654','2016-08-01',5,'{\"in\":2,\"computer\":3}'),(4,'Python Crash Course: A Hands-On, Project-Based Introduction to Programming',21.58,' Eric Matthes','Programming','en','659-8546-324','2015-11-30',2,'{\"in\":2}'),(5,'Data Structures and Algorithms in Java',102.65,'Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser','Computer Science','en',' 978-1118777788','2014-06-23',5,'{\"in\":2,\"computer\":3}'),(6,'Star Wars: Darth Vader Vol. 1: Vader',26.54,'Kieron Gillen','Comic Novels','en','485-6582-658','2015-09-16',4,'{\"ad\":4}'),(7,'Star Wars Vol. 1: Skywalker Strikes',16.23,'Jason Aron','Novels','en','159-7539-985','2011-04-11',0,NULL),(8,'Phonics for Kindergarten, Grade K ',6.32,'Carson-Dellosa Publishing ','Education','en','412-6548-7854','2016-08-10',6,'{\"in\":2,\"ad\":4}'),(9,'Astrophysics for People in a Hurry ',9.95,'Astrophysics for People in a Hurry ','Science','en','654-71235-654','2010-10-02',2,'{\"in\":2}'),(10,'Let\'s Review Algebra I',8.54,'Gary Rubinstein (Author) ','Science','en','978-1438009854','2006-03-24',0,NULL);
 /*!40000 ALTER TABLE `tbl_books` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-08-20  1:20:15
+-- Dump completed on 2018-08-20 23:53:22
